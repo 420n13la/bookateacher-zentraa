@@ -1,0 +1,14 @@
+UXWID Teachers
+Jennifer, Reza and Alicia are the three teachers of the course User Experience and Web Interface design. They decided to join forces and share their insight with all students. They are available at different times in the day and evening to offer students more options to meet a teacher.
+
+Jennifer
+With more than twenty years experience in the field, Jennifer is your best source to understand web design foundations and principles using HTML5 and CSS3.
+Jennifer's interests include books and biking.
+
+Reza
+Responsiveness is one of the most important criteria of a website. Reza can teach you the steps to build great responsive websites with ease and clarity.
+Reza's interests include camping and robotics.
+
+Alicia
+Meet Alicia to discuss prototyping websites following the latest design principles and best practices for meaning and great user emotional experience.
+Alicia's interests include puzzles and climbing.

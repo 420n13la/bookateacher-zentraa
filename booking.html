@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+  <!-- made by emile -->
 <html lang="en">
 <head>
   <title>Book a Teacher</title>
@@ -6,31 +7,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
-
 <style>
-/* STYLE GOES HERE IF NEEDED */
-
+.jumbotron {
+  	background: #ff914d !important;
+}
+.jumbotron h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 4em;
+}
+.ltitle {
+  padding-top: 0.5em;
+  font-weight: bold;
+}
+textarea {
+  border:1px solid #999999;
+  width:100%;
+  margin:5px;
+  padding:3px;
+}
 </style>
-
-</head>
 <body>
-
+<div class="jumbotron text-light text-center">
   <h1>Book a Teacher</h1>
-  <p>User Experience Web Interface Design</p> 
-  
-  <nav>
-  <!-- NAVIGATION GOES HERE -->
-  
-  </nav>
-
+  <p>User Experience Web Interface Design</p>
+</div>
+<nav>
+  <ul class="nav nav-tabs">
+    <li class="nav-item"><a href="index.html" target=_blank class="nav-link">Teachers</a></li>
+    <li class="nav-item"><a href="" class="nav-link active">Booking</a></li>
+    <li class="nav-item"><a href="" class="nav-link disabled">About</a></li>
+  </ul>
+</nav>
   <div class="container">
-  <!-- FORM GOES HERE -->
-
+  <form>
+    <div class="row">
+      <div class="col-lg-6">
+        <label class="ltitle" for="inputName">Name</label>
+        <input type="name" class="form-control" placeholder="Name" required>
+      <label class="ltitle" for="inputEmail">Email</label>
+      <input type="email" class="form-control" placeholder="Email">
+      <label class="ltitle" for="inputPhone">Phone</label>
+      <input type="tel" class="form-control" placeholder="Phone">
+      <label class="ltitle" for="inputTopic">Topics to discuss</label><br>
+      <textarea name="inputTopic" cols="50" rows="3"></textarea>
+    </div>
+    <div class="col-lg-6">
+      <label class="ltitle" for="inputLevel">Level</label>
+      <select  class="form-control">
+        <option selected>Choose...</option>
+        <option>Beginner</option>
+        <option>Basic</option>
+        <option>Advanced</option>
+      </select>
+      <label class="ltitle" for="gridCheck">Time of Choice</label>
+      <div class="form-check">
+      <input class="form-check-input" type="radio" checked><label class="form-check-label" for="gridCheck">Day</label>
+      </div>
+      <div class="form-check">
+      <input class="form-check-input" type="radio"><label class="form-check-label" for="gridCheck">Evening</label>
+      </div>
+      <label class="ltitle" for="inputDate">Date</label>
+      <input type="date" class="form-control">
+      <div class="form-group">
+        <label class="ltitle" for="gridCheck">Invite Teachers</label>
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" checked><label class="form-check-label" for="gridCheck">Jennifer</label>
+        </div>
+        <div class="form-check">
+      <input class="form-check-input" type="checkbox" checked><label class="form-check-label" for="gridCheck">Reza</label>
+        </div>
+        <div class="form-check">
+      <input class="form-check-input" type="checkbox" checked><label class="form-check-label" for="gridCheck">Alicia</label>
+        </div>
   </div>
-  
-<footer>
-    <div>Made with Love in Saint-Lambert</div>
-</footer>  
-
+      </div>
+      	<div>
+		<button type="submit" class="btn btn-primary">Book</button>
+  <button type="reset" class="btn btn-primary">Clear</button>
+	</div>
+   </div>
+</form>
+  </div>
+<footer class="page-footer bg-dark text-light mt-5 font-small pt-4">
+  <div class="pb-4 footer-copyright text-center py-3">Made with Love in Saint-Lambert
+  </div>
+</footer>
 </body>
 </html>
